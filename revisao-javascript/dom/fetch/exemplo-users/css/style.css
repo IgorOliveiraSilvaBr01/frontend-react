@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    background-color: #F2F4F7;
+    color: #222222;
+}
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: none;
+    color: #FFFFFF;
+    background-color: #2563EB;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #1E40AF;
+}
+
+#posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+}
+
+.card {
+   background-color: #FFFFFF;
+   width: 230px;
+   padding: 20px;
+   border-radius: 6;
+   box-shadow: 0 2px 8px #CCCCCC; 
+}
+
+.card > h2 {
+    color: #2563EB;
+    font-size: 1.25rem;
+}
